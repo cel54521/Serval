@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>さーばる</title>
+  <link rel='stylesheet' href='style.css' />
+</head>
+<body bgcolor="#FFDD99">
+  <h1>さ～ばる</h1>
+  <p>
+    わーい！すごーい！    ポインタをインクリメントする。ポインタをptrとすると、C言語の「ptr++;」に相当。<br />
+    わーい！たのしー！    ポインタをデクリメントする。C言語の「ptr--;」に相当。<br />
+    すごーい！たのしー！  ポインタが指す値をインクリメントする。C言語の「(*ptr)++;」に相当。<br />
+    すごーい！わーい！    ポインタが指す値をデクリメントする。C言語の「(*ptr)--;」に相当。<br />
+    たのしー！たのしー！  ポインタが指す値を出力に書き出す。C言語の「putchar(*ptr);」に相当。<br />
+    たのしー！すごーい！  ポインタが指す値が0なら、対応する たのしー！わーい！ の直後にジャンプする。C言語の「while(*ptr){」に相当。<br />
+    たのしー！わーい！    ポインタが指す値が0でないなら、対応する たのしー！すごーい！ （の直後）にジャンプする。C言語の「}」に相当。<br />
+  </p>
+  <textarea id="source" rows="35" cols="120">ここに　にゅうりょくしてね！</textarea>
+  <textarea id="output" rows="4" cols="40">ここに　じっこうされるよ！</textarea>
+  <button type="button" name="exec" vaue="exec" onclick="exec()"><b>実行</b></button>
+  <script type="text/javascript" src="Serval.js"></script>
+  <script type="text/javascript" src="Brainfuck.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
